@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane prefHeight="325.0" prefWidth="679.0" styleClass="roundPane" stylesheets="@splashScreen.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.efecan.splashScreen.SplashScreen">
+   <children>
+      <AnchorPane id="ROOTNODE" prefHeight="307.0" prefWidth="683.0">
+         <children>
+            <Label id="txtMsg" fx:id="txtMsg" alignment="CENTER" layoutX="6.0" layoutY="136.0" prefHeight="53.0" prefWidth="660.0" text="Loading..." textFill="#fffffffa">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="5.0" prefHeight="39.0" prefWidth="668.0" text="Library Management System" textFill="WHITE" underline="true" AnchorPane.topAnchor="6.0">
+               <font>
+                  <Font name="Cambria" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
